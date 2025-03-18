@@ -83,6 +83,9 @@ INSERT INTO Dependente(numeroFunc, nome, dataNasc, parentesco)
     
 INSERT INTO Departamento (numero, nome, numeroFuncGer, dataIniGer)
 	values (1, 'Bogas Parafuso', 1, '2024-03-13'); 
+    
+INSERT INTO Projeto(numero, nome, numeroDepto)
+	values(1, 'ChatBot', 1); #Falta instanciar essa
 
 INSERT INTO LocalDep (numeroDepto, localizacao)
 	VALUES(1, 'Entrada');
